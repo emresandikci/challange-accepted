@@ -12,6 +12,7 @@ const bracketPairRules = [
     { "[": "]" }
 ]
 
+const testBrackets = ['{[]}', '{(])}', '{([)]}'];
 //this function checks if there any pair matches for brackets
 function checkHasPair(brackets = []) {
     let hasPair = false;
@@ -46,6 +47,7 @@ function matchPairs(brackets = '') {
     }
     return checkHasPair(pairedBrackets);
 }
-console.log(matchPairs('{[]}'));
-console.log(matchPairs('{(])}'));
-console.log(matchPairs('{([)]}'));
+
+testBrackets.forEach(b => {
+    console.log(matchPairs(b));
+});
