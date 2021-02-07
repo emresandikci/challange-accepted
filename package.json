@@ -6,6 +6,7 @@
   "author": "emresandikci <me@emresandikci.com>",
   "license": "MIT",
   "scripts": {
-    "start":"node"
+    "start":"node",
+    "server":"node server.js"
   }
 }
