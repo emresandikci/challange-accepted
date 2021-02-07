@@ -1,0 +1,11 @@
+{
+  "name": "challange-accepted",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/emresandikci/challange-accepted.git",
+  "author": "emresandikci <me@emresandikci.com>",
+  "license": "MIT",
+  "scripts": {
+    "start":"node"
+  }
+}
